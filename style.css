@@ -1,0 +1,116 @@
+.header{ 
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: #a25da8;
+    background-image: url("flower-removebg-preview.png");
+}
+
+
+
+.social{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+    /* background-image: url("garden.png"); */
+}
+
+.games{ 
+    
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.maze{
+    display:flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.w3schools{
+    display:flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.garden{
+    display:flex;
+    flex-direction:column ;
+    background-color: green;
+}
+
+.Medias{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.mango{
+    display:flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+body{
+    background-image: url(riverside.png);
+    background-size: 120% 120%;
+   
+    
+   background-position-y: 150px;
+   background-repeat: no-repeat;
+}
+
+.aboutMe{
+    color: white;
+    font: message-box;
+    margin-left: 200px;
+
+}
+
+
+a:link{
+    color:blueviolet
+}
+
+a:visited{
+    color:transparent
+}
+
+a:hover{
+ color:white;
+ 
+}
+
+.maze {
+    position:relative;
+    
+}
+
+.maze p{
+    position:absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color:white;
+
+    font-size: 15px;
+    size:150px;
+}
+.maze:hover img{
+    transform:scale(1.5);
+    
+}
+
+.maze:hover p{
+    opacity:1 ;
+}
+.maze:hover img{
+    opacity:0.333
+}
